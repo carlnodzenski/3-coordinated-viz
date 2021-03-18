@@ -1,0 +1,380 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Tokyo",
+        "Pop_1985": 30.3,
+        "Pop_1990": 32.53,
+        "Pop_1995": 33.59,
+        "Pop_2000": 34.45,
+        "Pop_2005": 35.62,
+        "Pop_2010": 36.83,
+        "Pop_2015": 38,
+        "name": "Tokyo",
+        "desc": "Tokyo, Japan",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7494659,
+          35.6869621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Delhi",
+        "Pop_1985": 7.33,
+        "Pop_1990": 9.73,
+        "Pop_1995": 12.41,
+        "Pop_2000": 15.73,
+        "Pop_2005": 18.67,
+        "Pop_2010": 21.94,
+        "Pop_2015": 25.7,
+        "name": "Delhi",
+        "desc": "New Delhi, India",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2187881,
+          28.6324253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Shanghai",
+        "Pop_1985": 6.85,
+        "Pop_1990": 7.82,
+        "Pop_1995": 10.45,
+        "Pop_2000": 13.96,
+        "Pop_2005": 16.76,
+        "Pop_2010": 19.98,
+        "Pop_2015": 23.74,
+        "name": "Shanghai",
+        "desc": "Shanghai, China",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737015,
+          31.2303696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "São Paulo",
+        "Pop_1985": 13.39,
+        "Pop_1990": 14.78,
+        "Pop_1995": 15.91,
+        "Pop_2000": 17.01,
+        "Pop_2005": 18.29,
+        "Pop_2010": 19.66,
+        "Pop_2015": 21.07,
+        "name": "São Paulo",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.633308,
+          -23.55052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Mumbai (Bombay)",
+        "Pop_1985": 10.39,
+        "Pop_1990": 12.44,
+        "Pop_1995": 14.31,
+        "Pop_2000": 16.37,
+        "Pop_2005": 17.89,
+        "Pop_2010": 19.42,
+        "Pop_2015": 21.04,
+        "name": "Mumbai (Bombay)",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.877655,
+          19.075983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Ciudad de México (Mexico City)",
+        "Pop_1985": 14.28,
+        "Pop_1990": 15.64,
+        "Pop_1995": 17.02,
+        "Pop_2000": 18.46,
+        "Pop_2005": 19.28,
+        "Pop_2010": 20.13,
+        "Pop_2015": 21,
+        "name": "Ciudad de México (Mexico City)",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133209,
+          19.432608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Beijing",
+        "Pop_1985": 6.02,
+        "Pop_1990": 6.79,
+        "Pop_1995": 8.31,
+        "Pop_2000": 10.16,
+        "Pop_2005": 12.81,
+        "Pop_2010": 16.19,
+        "Pop_2015": 20.38,
+        "name": "Beijing",
+        "desc": "Beijing, China",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.397583,
+          39.9078064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Kinki M.M.A. (Osaka)",
+        "Pop_1985": 17.58,
+        "Pop_1990": 18.39,
+        "Pop_1995": 18.94,
+        "Pop_2000": 18.66,
+        "Pop_2005": 18.76,
+        "Pop_2010": 19.49,
+        "Pop_2015": 20.24,
+        "name": "Kinki M.M.A. (Osaka)",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.490357,
+          34.6198813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Al-Qahirah (Cairo)",
+        "Pop_1985": 8.33,
+        "Pop_1990": 9.89,
+        "Pop_1995": 11.96,
+        "Pop_2000": 13.63,
+        "Pop_2005": 15.17,
+        "Pop_2010": 16.9,
+        "Pop_2015": 18.77,
+        "name": "Al-Qahirah (Cairo)",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2357257,
+          30.0443879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "New York-Newark",
+        "Pop_1985": 15.83,
+        "Pop_1990": 16.09,
+        "Pop_1995": 16.94,
+        "Pop_2000": 17.81,
+        "Pop_2005": 18.09,
+        "Pop_2010": 18.37,
+        "Pop_2015": 18.59,
+        "name": "New York-Newark",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Dhaka",
+        "Pop_1985": 4.66,
+        "Pop_1990": 6.62,
+        "Pop_1995": 8.33,
+        "Pop_2000": 10.28,
+        "Pop_2005": 12.33,
+        "Pop_2010": 14.73,
+        "Pop_2015": 17.6,
+        "name": "",
+        "desc": "Dhaka, Bangladesh",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.4154816,
+          23.7073059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Karachi",
+        "Pop_1985": 6.03,
+        "Pop_1990": 7.15,
+        "Pop_1995": 8.47,
+        "Pop_2000": 10.03,
+        "Pop_2005": 11.89,
+        "Pop_2010": 14.08,
+        "Pop_2015": 16.62,
+        "name": "Karachi",
+        "desc": "Kar?chi, Pakistan",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.98806,
+          24.8719387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Buenos Aires",
+        "Pop_1985": 9.96,
+        "Pop_1990": 10.51,
+        "Pop_1995": 11.39,
+        "Pop_2000": 12.41,
+        "Pop_2005": 13.33,
+        "Pop_2010": 14.25,
+        "Pop_2015": 15.18,
+        "name": "Buenos Aires",
+        "desc": "Buenos Aires, Argentina",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3732224,
+          -34.6090279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Kolkata (Calcutta)",
+        "Pop_1985": 9.95,
+        "Pop_1990": 10.89,
+        "Pop_1995": 11.92,
+        "Pop_2000": 13.06,
+        "Pop_2005": 13.7,
+        "Pop_2010": 14.28,
+        "Pop_2015": 14.86,
+        "name": "Kolkata (Calcutta)",
+        "desc": "-",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3638815,
+          22.5726723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Istanbul",
+        "Pop_1985": 5.41,
+        "Pop_1990": 6.55,
+        "Pop_1995": 7.67,
+        "Pop_2000": 8.74,
+        "Pop_2005": 10.51,
+        "Pop_2010": 12.7,
+        "Pop_2015": 14.16,
+        "name": "Istanbul",
+        "desc": "Istanbul, Turkey",
+        "color": "",
+        "source": "Bing Maps",
+        "precision": "city/town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9638004,
+          41.0130005
+        ]
+      }
+    }
+  ]
+}
