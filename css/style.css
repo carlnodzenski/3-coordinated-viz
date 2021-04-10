@@ -1,3 +1,45 @@
+a:link, a:visited {
+  position:absolute;
+  left:325px;
+  top:12px;
+  background-color: white;
+  color: #909090;
+  border: 2px solid #CCC;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #D3D3D3;
+  color: #fd8d3c;
+}
+
+div.absolute {
+  position: absolute;
+  left: 1075px;
+  top: 615px;
+  border: 1px solid #CCC;
+  width:815px;
+  height: 350px;
+  z-index: 10;
+}
+
+div.link {
+  position: absolute;
+  left: 1075px;
+  top: 980px;
+  border: 1px solid #CCC;
+  width:815px;
+  height: 65px;
+  z-index: 10;
+}
+
+
 .axis path,
 .axis line {
     fill: none;
@@ -15,4 +57,139 @@
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.country {
+    fill: #CCC;
+    stroke: #CCC;
+    stroke-width: 2px;
+}
+
+.gratLines {
+    fill: none;
+    stroke:  	#C0C0C0;
+    stroke-width: 0.5px;
+}
+
+.gratBackground {
+    fill: #FFF;
+}
+
+.map {
+    border: thin solid #999;
+    margin: 10px 0 0 20px;
+}
+
+.county {
+    stroke: #000000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.chart {
+    position: absolute;
+    background-color: #FFF;
+    border: thin solid #999;
+    left: 1075px;
+    top:145px;
+}
+
+
+.chartFrame {
+    fill: none;
+    background-color: #FFF;
+    /*
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+    */
+}
+
+
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+    font-size: 0.5vw;
+}
+
+.chartTitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    fill: #909090;
+    z-index: 10;
+}
+
+.dropdown {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #606060;
+    background-color: #fff;
+    opacity: 0.8;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+mytitle {
+    width:auto;
+    color: #909090;
+    font-size: 40px;
+    padding-left:2%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px
+}
+
+mySubtitle {
+    width:auto;
+    color: #909090;
+    font-size: 20px;
+    padding-left:2%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px
+}
+
+textBox {
+    display:block;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #BEBEBE;
+
+}
+
+subScript {
+    display: block;
+    margin-left: 2%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #BEBEBE;
+
 }
