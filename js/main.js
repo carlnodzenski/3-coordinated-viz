@@ -65,14 +65,6 @@ function setMap(){
 
     [csvData, usa, counties] = data;
 
-		//csvData = data[0];
-		//usa = data[1];
-		//counties = data[2];
-
-    console.log(csvData);
-    console.log(usa);
-    console.log(counties);
-
     //place graticule on the map
     setGraticule(map, path);
 
@@ -174,30 +166,7 @@ function setChart(csvData, colorScale){
         //below Example 2.2 line 31...add style descriptor to each rect
     var desc = bars.append("desc")
     .text('{"stroke": "none", "stroke-width": "0px"}');
-        /*
-        // //annotate bars with attribute value text
-           var numbers = chart.selectAll(".numbers")
-               .data(csvData)
-               .enter()
-               .append("text")
-               .sort(function(a, b){
-                   return a[expressed]+b[expressed]
-               })
-               .attr("class", function(d){
-                   return "numbers " + d.Name;
-               })
-               .attr("text-anchor", "middle")
-               .attr("x", function(d, i){
-                   var fraction = chartInnerWidth / csvData.length;
-                   return (i * fraction + (fraction - 1) / 2)+leftPadding;
-               })
-               .attr("y", function(d){
-                   return yScale(parseFloat(d[expressed])) + 1;
-               })
-               .text(function(d){
-                   return d[expressed];
-               });
-            */
+
     //create a text element for the chart title
    var chartTitle = chart.append("text")
        .attr("x", 140)
@@ -322,9 +291,6 @@ function joinData(counties_topo, csvData){
             };
         };
     };
-
-    console.log("Here is the join");
-    console.log(counties_topo);
 
     return counties_topo;
 };
@@ -501,7 +467,7 @@ function moveLabel(){
 
 function setEnumerationUnits(counties_topo, map, path, colorScale){
     //...REGIONS BLOCK FROM MODULE 8
-	//add France regions to map
+	//add counties to map
 	var enum_county = map.selectAll(".county")
 		.data(counties_topo)
 		.enter()
@@ -534,8 +500,6 @@ function setEnumerationUnits(counties_topo, map, path, colorScale){
     var desc = enum_county.append("desc")
     .text('{"stroke": "#000", "stroke-width": "0.5px"}');
 };
-
-
 
 
 
